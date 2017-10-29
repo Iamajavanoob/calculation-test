@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class calculation.services.CalculationServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class calculation.services.CalculationServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/calculation.services.html">calculation.services</a> &gt; CalculationServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.546s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getResultWithAddtionDto</td>
+<td>0.097s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getResultWithDivisionDto</td>
+<td>0.096s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getResultWithMultiplicationDto</td>
+<td>0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getResultWithSubtractionDto</td>
+<td>0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">throwExceptionWithInvalidCalculationDtoWithEmptyOperation</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">throwExceptionWithInvalidCalculationDtoWithInvalidOperation</td>
+<td>0.140s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2017-10-29 18:07:50.771  INFO 15684 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [calculation.services.CalculationServiceTest], using DelegatingSmartContextLoader
+2017-10-29 18:07:50.775  INFO 15684 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [calculation.services.CalculationServiceTest]: no resource found for suffixes {-context.xml}.
+2017-10-29 18:07:50.776  INFO 15684 --- [    Test worker] c.s.AbstractDelegatingSmartContextLoader : AnnotationConfigContextLoader detected default configuration classes for context configuration [ContextConfigurationAttributes@391c69b7 declaringClass = 'calculation.services.CalculationServiceTest', classes = '{class calculation.services.CalculationServiceTest$CalculationServiceTestContextConfiguration}', locations = '{}', inheritLocations = false, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2017-10-29 18:07:50.782  INFO 15684 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-29 18:07:50.783  INFO 15684 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-10-29 18:07:50.784  INFO 15684 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-10-29 18:07:50.785  INFO 15684 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2eb4d257, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f1749bb, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5d3988ee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e59ba9d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6677fb6b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@23683c8f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3287bef4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@11a9776b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48dc7a96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2a32ab46]
+2017-10-29 18:07:50.789  INFO 15684 --- [    Test worker] o.s.c.support.GenericApplicationContext  : Refreshing org.springframework.context.support.GenericApplicationContext@20f01ae6: startup date [Sun Oct 29 18:07:50 AEDT 2017]; root of context hierarchy
+2017-10-29 18:07:51.393 ERROR 15684 --- [    Test worker] calculation.services.CalculationService  : Operation cannot be empty
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.13</a> at Oct 29, 2017 6:07:51 PM</p>
+</div>
+</div>
+</body>
+</html>
